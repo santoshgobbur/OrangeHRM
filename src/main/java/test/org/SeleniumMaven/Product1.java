@@ -26,7 +26,7 @@ public class Product1 {
 		Thread.sleep(8000);
 		//driver.findElement(By.id("cmbPlans")).click();
 		
-		Select plan = new Select(driver.findElement(By.id("cmbPlans"))); //list box
+		Select plan = new Select(driver.findElement(By.id("cmbPlans"))); //list box syntax
 		plan.selectByVisibleText("WELCOMEPLAN");
 		plan.selectByIndex(1);
 		
