@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test4(failed)">
     <classes>
       <class name="test.org.SeleniumMaven.BusinessLogic1">
         <methods>
@@ -10,5 +10,5 @@
         </methods>
       </class> <!-- test.org.SeleniumMaven.BusinessLogic1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
