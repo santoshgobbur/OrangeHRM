@@ -17,6 +17,7 @@ public class Login1 {
 		driver.get("https://dev.tracko.co.in/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[contains(text(),'Log in')]")).click();
+		System.out.println("login");
 	}
 
 }
